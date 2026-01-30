@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device trees -->
+  <project name="aosp-vili/android_device_xiaomi_vili" path="device/xiaomi/vili" revision="derp-16.2" remote="github" />
+  <project name="aosp-vili/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="derp-16.2" remote="github" />
+
+  <!-- Vendor trees -->
+  <project name="aosp-vili/proprietary_vendor_xiaomi_vili" path="vendor/xiaomi/vili" revision="lineage-23.2" remote="github" />
+  <project name="aosp-vili/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="derp-16.2" remote="github" />
+  <project name="aosp-vili/proprietary_vendor_xiaomi_camera" path="vendor/xiaomi/camera" revision="lineage-23.2" remote="github" />
+  <project name="0mar99/vendor-xiaomi-vili-firmware" path="vendor/xiaomi/vili-firmware" revision="main" remote="gitlab" />
+
+  <!-- Kernel -->
+  <project name="aosp-vili/android_android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="lineage-23.2" remote="github" />
+
+  <!-- Hardware sources -->
+  <project name="aosp-vili/android_hardware_xiaomi" path="hardware/xiaomi" revision="derp-16.2" remote="github" />
+
+  <!-- Extras -->
+  <project name="0mar99/private_keys" path="vendor/lineage/signing" revision="derp" remote="github" />
+  <project name="aosp-vili/vendor_sony_dolby" path="vendor/sony/dolby" revision="15-dolbymanager" remote="github" />
+  <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lunaris-16" remote="github" />
+
+</manifest>
